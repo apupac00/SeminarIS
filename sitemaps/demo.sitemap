@@ -1,0 +1,6 @@
+sitemap demo label="DHT22" {
+    Frame label="DHT22 sensor" {
+        Text item=GenericMQTTThing_Humidity label="Humidity [%.1f %%]"
+        Text item=GenericMQTTThing_Temperature label="Temperature [%.1f °C]"
+    }
+}
